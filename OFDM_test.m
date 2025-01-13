@@ -1,7 +1,7 @@
 close all;
 clear
 
-%% test simulation 
+%% 测试仿真 
 %OFDM_TX; % run base transmitter which you can use for developing. 
 
 [decoded_data]= MyOfdmReceiver(raw_rx_data);
